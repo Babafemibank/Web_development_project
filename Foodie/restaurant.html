@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="firstpage" id="firstpage">
+        <header>
+            <div class="logo">
+                <img src="/assets/logo.png" alt="logo">
+            </div>
+
+            <nav>
+                <div><a href="#firstpage">Home</a></div>
+                <div><a href="#secondpage">Menu</a></div>
+                <div>About</div>
+                <div>Contact</div>
+            </nav>
+        </header>
+
+        <div class="firstpage-content">
+            <div class="firstpage-h2">
+                <h2>Your Favorite Food,<br>Delivered <span>Hot & Fresh</span>.</h2>
+            </div>
+
+            <div class="firstpage-text">
+                <div>Experience the best of local & international cuisine, prepared with <br> passion and delivered to
+                    your step.</div>
+            </div>
+
+            <div class="firstpage-cta">
+                <button id="firstpage-order-button">Order Now</button>
+                <button id="firstpage-view-menu">View Menu</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="secondpage" id="secondpage">
+        <div class="secondpage-content">
+            <div class="secondpage-text">
+                <h2>Savor the Flavor<br>of Our <span>Signature<br>Burger</span></h2>
+                <p>
+                    Indulge in our mouthwatering burger, crafted with<br>premium ingredients and bursting with flavor.
+                    Experience<br>the perfect blend of juicy patty, fresh toppings, and a <br>toasted bun.
+                </p>
+                <div class="secondpage-cta">
+                    <button id="secondpage-order-button">Order Now <!-- =========Solid rounded arrow -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            aria-hidden="true" focusable="false">
+                            <path
+                                d="M6 12c0-.55.45-1 1-1h8.59l-3.3-3.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 0 1.42l-5 5a1 1 0 1 1-1.42-1.42L15.59 13H7c-.55 0-1-.45-1-1z"
+                                fill="currentColor" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="secondpage-img">
+                <img src="/assets/burger.png" alt="burger image">
+            </div>
+        </div>
+    </section>
+
+    <section class="thirdpage">
+        <div class="thirdpage-content">
+            <!-- Heading and subtitle -->
+            <div class="menu-header">
+                <h2>Our Delicious Menu</h2>
+                <p>Crafted with passion, from our kitchen to your table.</p>
+            </div>
+
+            <!-- Cards wrapper -->
+            <div class="menu-cards">
+                <!-- Card 1 -->
+                <div class="menu-card">
+                    <img src="/assets/pizza.png" alt="Margheritta Pizza">
+                    <div class="content">
+                        <h3>Margherita Pizza</h3>
+                        <p>A classic pizza with fresh mozzarella, San Marzano tomatoes, and basil.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="menu-card">
+                    <img src="/assets/spag.png" alt="Spaghetti Carbonara">
+                    <div class="content">
+                        <h3>Spaghetti Carbonara</h3>
+                        <p>Authentic Italian pasta with eggs, cheese, pancetta, and pepper.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="menu-card">
+                    <img src="/assets/salad.png" alt="Caesar Salad">
+                    <div class="content">
+                        <h3>Caesar Salad</h3>
+                        <p>Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="fourthpage">
+        <div class="fourthpage-content">
+            <div>
+                <!-- Icon -->
+                <div class="fourthpage-icon">
+                    <!-- I used svg instead of real image cuz i cant find it -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"
+                        aria-hidden="true">
+                        <g clip-path="url(#clip0)">
+                            <path
+                                d="M7 29C7 29 6.956 32.748 8.456 37.248 9.329 39.864 10.37 41.467 11.679 42.251 13.356 43.257 15.076 41.272 16.058 39.581 17.02 37.925 18.434 36.228 19.548 35"
+                                stroke="#38e07b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M33.000 7.912C35.623 8.351 38.532 8.917 39.626 9.419 41.052 10.073 42.486 11.406 43.057 12.831 43.588 14.154 42.21 15.171 40.964 15.865 39.559 16.648 38.095 17.875 36.899 19"
+                                stroke="#38e07b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M24.202 29.776L21.700 31.514C21.243 31.832 20.884 32.272 20.664 32.784 20.02 34.286 18.283 34.986 16.778 34.35L8.803 30.98C7.331 30.358 6.618 28.68 7.193 27.188 7.643 26.02 8.523 23.737 10.131 21.809 12.219 20.534"
+                                stroke="#38e07b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M30.72 24.508L32.11 23.004 33.022 22.017c.315-.341.699-.611 1.126-.794 1.603-.687 2.396-2.502 1.81-4.146L33.107 9.066c-.475-1.336-1.875-2.104-3.257-1.788l-1.219.279c-2.655.607-4.983 1.195-6.516 3.445"
+                                stroke="#38e07b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.411 23.079c-1.636-1.169-2.079-3.413-1.017-5.121 1.55-2.49 3.659-4.594 6.155-6.135 1.672-.933 3.856-.52 5.036 1.051L29.515 20.686c1.359 1.811.945 4.388-1.912 5.683l-.24.167c-.3.211-.57.461-.803.744l-.683.832c-1.336 1.627-3.703 1.94-5.415.717L13.411 23.079z"
+                                stroke="#38e07b" stroke-width="4" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="48" height="48" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+
+                </div>
+
+                <h2>About Our Passion for Food</h2>
+                <p class="subtitle">From Our Kitchen to Your Table</p>
+            </div>
+
+            <div class="fourthpage-text">
+                <p>
+                    At our core, we are a team of passionate food enthusiasts dedicated to crafting exceptional
+                    culinary experiences. Our journey began with a simple desire: to share our love for delicious,
+                    high-quality food with the world. We believe that food is more than just sustenance; it's a
+                    source of joy, connection, and cultural expression.
+                </p>
+                <p>
+                    With this philosophy in mind, we meticulously source the finest ingredients, collaborate with
+                    talented chefs, and employ innovative techniques to create dishes that tantalize the taste
+                    buds and nourish the soul.
+                </p>
+                <p>
+                    Our commitment to excellence extends beyond the kitchen, as we strive to provide exceptional
+                    customer service and foster a welcoming community around our shared love for food. Join us on
+                    this flavorful adventure as we explore the endless possibilities of gastronomy together.
+                </p>
+            </div>
+
+            <!-- CTA -->
+            <button class="fourthpage-cta">Explore Our Menu</button>
+        </div>
+    </section>
+
+
+    <section class="customer-testimonials">
+        <div class="customer-testimonials-content">
+            <div class="cust-testi-copy">
+                <h2>What our customers say</h2>
+                <p>Hear from real people who love our product.</p>
+            </div>
+            <div class="menu-cards2">
+                <div class="customer-testimonials-box1">
+                    <img src="/assets/woman_921018.png" alt="Sarah Miller">
+                    <p>"I've been using this product for a few weeks now, and I'm amazed at the results. My energy
+                        levels are up, and I feel fantastic!"</p>
+                    <div class="customer_details1">
+                        <div id="customer_name1">Sarah Miller</div>
+                        <div id="customer_title1">Happy Customer</div>
+                    </div>
+                </div>
+                <div class="customer-testimonials-box2">
+                    <img src="/assets/businessman_18390953.png" alt="David Chen">
+                    <p>"This product has completely changed my approach to healthy eating. It's so convenient and
+                        delicious, I look forward to every meal."</p>
+                    <div class="customer_details2">
+                        <div id="customer_name2">David Chen</div>
+                        <div id="customer_title2">Loyal User</div>
+                    </div>
+                </div>
+                <div class="customer-testimonials-box3">
+                    <img src="/assets/black_15675972.png" alt="Emily Rodriguez">
+                    <p>"I was skeptical at first, but this product exceeded my expectations. It's helped me stay on
+                        track with my fitness goals without sacrificing taste."</p>
+                    <div class="customer_details3">
+                        <div id="customer_name3">Emily Rodriguez</div>
+                        <div id="customer_title3">Fitness Enthusiast</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========Contact Page========= -->
+
+    <section class="lastpage">
+        <div class="lastpage-content">
+            <div class="contact-us">
+                <div class="contact-us-copy">
+                    <h2>Contact Us</h2>
+                    <p>Have questions or feedback? We'd love to hear from you. Reach out <br>to us using the contact
+                        information below or fill out the form. and <br>we'll get back to you as soon as possible.</p>
+                </div>
+                <div class="contact-icons">
+                    <div class="contact-email">
+                        <div id="email">contact@example.com</div>
+                        <div class="contact-tel">
+                            <div id="telephone">+1(234)567-890</div>
+                            <div class="contact-address">
+                                <div id="address">123 Green St, Foodville, FV 45678</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-input">
+                <div>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                </div>
+                <div>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                </div>
+                <div>
+                    <input type="text" name="Name" placeholder="Your Message" required>
+                </div>
+                <div>
+                    <button>Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
