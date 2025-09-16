@@ -21,7 +21,7 @@ https://www.figma.com/design/gy3gjJwI0IZwQB6SZqrWTN/Foodie?node-id=0
 
 
 
-## Team member
+## Team members
 
 Simeon Akinrinola
 
