@@ -1,13 +1,13 @@
-#PROJECT : RESTAURANT WEBSITE
+# PROJECT : RESTAURANT WEBSITE
 This project features replicating a restaurant website
 
-##The figma link for reference:
+## The figma link for reference:
 
 https://www.figma.com/design/gy3gjJwI0IZwQB6SZqrWTN/Foodie?node-id=0
 
 
 
-##Final view of the project
+## Final view of the project
 ![first page](https://github.com/user-attachments/assets/3bfe6065-d7e5-4ec1-a459-f8f8bc3f61a1)
 
 ![second page](https://github.com/user-attachments/assets/7a524949-8c46-405f-98af-1417837af35c)
@@ -21,7 +21,7 @@ https://www.figma.com/design/gy3gjJwI0IZwQB6SZqrWTN/Foodie?node-id=0
 
 
 
-##Team member
+## Team member
 
 Simeon Akinrinola
 
